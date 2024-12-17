@@ -1,0 +1,117 @@
+/* Base Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb; /* Very light background */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #9b2d20; /* Deep red for Christmas */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-bottom: 5px solid #d4af37; /* Gold border */
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fce4ec; /* Light pink on hover */
+}
+
+.child-info {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #9b2d20; /* Matching header red */
+    margin-bottom: 10px;
+}
+
+p {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-left: 5px solid #9b2d20;
+    border-radius: 5px;
+    font-style: italic;
+    color: #333;
+    margin-top: 10px;
+}
+
+strong {
+    color: #d4af37; /* Gold color for emphasis */
+}
+
+/* Adding subtle pink to highlighted gifts */
+strong.style-pink {
+    color: #ff66b2; /* Soft pink for highlighted gifts */
+}
+
+footer {
+    background-color: #9b2d20;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+
+/* Christmas Tree Icon */
+li:before {
+    content: '🎄';
+    font-size: 1.5em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Adding subtle pink accents */
+a {
+    color: #ff66b2; /* Soft pink for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d6336c; /* Slightly darker pink for hover */
+}
+
+/* Card Backgrounds with Pink Accent */
+ul li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+ul li:hover {
+    background-color: #fce4ec; /* Light pink on hover */
+}
